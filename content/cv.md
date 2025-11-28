@@ -1,16 +1,15 @@
-
 ## Education
 
-**University of Wisconsin-Madison**, PhD in Economics, *2024 - Present*
+**University of Wisconsin-Madison**, Ph.D. in Economics, *2024 - Present*
 
 - Research focus: Empirical Industrial Organization, Labor Economics, Urban Economics
 
-**Cornell University**, MS in Applied Economics and Management, *2022 - 2024*
+**Cornell University**, M.S. in Applied Economics and Management, *2022 - 2024*
 
 - Master Thesis: National Retail Chains’ Price Response to Food Sales Taxes: Evidence in Fluid Milk
 - Supervisor: Prof. [David R. Just](https://business.cornell.edu/faculty-research/faculty/drj3/), Prof. [Miguel Gomez](https://business.cornell.edu/faculty-research/faculty/mig7/), Prof. [Shanjun Li](https://shanjunli6.github.io/research.html), Prof. [Calum G. Turvey](https://business.cornell.edu/faculty-research/faculty/cgt6/)
 
-**Sun Yat-sen University**, BS in Finance, *2017 - 2022*
+**Sun Yat-sen University**, B.S. in Finance, *2017 - 2022*
 
 - Thesis: Air Pollution and Household Asset Allocation - Evidence from Chinese Households
 - Supervisor: Prof. [Teng Li](https://www.teng-li.com/)

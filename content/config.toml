@@ -1,12 +1,12 @@
 [site]
 title = "Chenyan Gong"
-description = "PhD candidate at the University of Wisconsin-Madison."
+description = "Ph.D. candidate at the University of Wisconsin-Madison."
 favicon = "/favicon.svg"
 last_updated = "November 27, 2025"
 
 [author]
 name = "Chenyan Gong"
-title = "PhD Candidate"
+title = "Ph.D. Candidate"
 institution = "University of Wisconsin-Madison"
 avatar = "/chenyan_c.jpg"
 
