@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a second-year Ph.D. candidate in the [Department of Economics](https://econ.wisc.edu/) at the University of Wisconsin-Madison.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+Prior to joining UW-Madison, I earned my M.S. in Applied Economics from the [Dyson School of Applied Economics and Management](https://dyson.cornell.edu/) at Cornell University. I hold a B.S. in Finance from the [International School of Business &amp; Finance](https://isbf.sysu.edu.cn/en/) at Sun Yat-sen University.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My research interests lie at the intersection of **Empirical Industrial Organization**, **Labor Economics**, and **Urban Economics**, with a particular focus on the Chinese setting.

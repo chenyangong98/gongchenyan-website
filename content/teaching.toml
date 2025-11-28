@@ -3,8 +3,22 @@ title = "Teaching"
 description = "Courses I have taught or assisted with."
 
 [[items]]
-title = "Example Course"
+title = "Intermediate Microeconomics"
 subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities."
-tags = ["Undergraduate", "CS"]
+date = "Fall 2025"
+Instructor = "Prof. Lorenzo Magnolfi"
+tags = ["Undergraduate", "Economics", "University of Wisconsin-Madison"]
+
+[[items]]
+title = "Introduction to Macroeconomics"
+subtitle = "Teaching Assistant"
+date = "Spring 2024"
+Instructor = "Dr. Terry Alexander"
+tags = ["Undergraduate", "Economics", "Cornell University"]
+
+[[items]]
+title = "International Finance"
+subtitle = "Teaching Assistant"
+date = "Fall 2021"
+Instructor = "Prof. Jiaohui Yang"
+tags = ["Undergraduate", "Economics", "Sun Yat-sen University"]

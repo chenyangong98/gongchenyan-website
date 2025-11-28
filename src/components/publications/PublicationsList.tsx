@@ -204,7 +204,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 src={`/papers/${pub.preview}`}
                                                 alt={pub.title}
                                                 fill
-                                                className="object-cover"
+                                                className="object-contain bg-white transition-transform duration-500 group-hover:scale-105"
                                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             />
                                         </div>
@@ -215,20 +215,32 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         {pub.title}
                                     </h3>
                                     <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-400 mb-2`}>
-                                        {pub.authors.map((author, idx) => (
-                                            <span key={idx}>
-                                                <span className={author.isHighlighted ? 'font-semibold text-accent' : ''}>
-                                                    {author.name}
+                                        {pub.authors.map((author, idx) => {
+                                            // Logic to check if the author is YOU
+                                            const isMe = author.name.includes("Gong") && author.name.includes("Chenyan");
+                                            
+                                            return (
+                                                <span key={idx}>
+                                                    {/* Apply 'text-accent' (Yellow) and Bold if it is you */}
+                                                    <span className={isMe ? 'text-accent' : ''}>
+                                                        {author.name}
+                                                    </span>
+                                                    
+                                                    {/* Apply dagger if corresponding author (Yellow if it's you) */}
+                                                    {author.isCorresponding && (
+                                                        <sup className={`ml-0 ${isMe ? 'text-accent' : 'text-neutral-600 dark:text-neutral-400'}`}>†</sup>
+                                                    )}
+                                                    
+                                                    {/* Add comma separator */}
+                                                    {idx < pub.authors.length - 1 && ', '}
                                                 </span>
-                                                {author.isCorresponding && (
-                                                    <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-400'}`}>†</sup>
-                                                )}
-                                                {idx < pub.authors.length - 1 && ', '}
-                                            </span>
-                                        ))}
+                                            );
+                                        })}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {/* This allows HTML tags inside the journal name */}
+                                        <span dangerouslySetInnerHTML={{ __html: pub.journal || pub.conference || '' }} />
+                                        {' '}{pub.year}
                                     </p>
 
                                     {pub.description && (
@@ -298,10 +310,11 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 className="overflow-hidden mt-4"
                                             >
                                                 <div className="bg-neutral-50 dark:bg-neutral-800 rounded-lg p-4 border border-neutral-200 dark:border-neutral-700">
-                                                    <p className="text-sm text-neutral-600 dark:text-neutral-500 leading-relaxed">
-                                                        {pub.abstract}
-                                                    </p>
-                                                </div>
+                                                <div 
+                                                    className="text-sm text-neutral-600 dark:text-neutral-500 leading-relaxed"
+                                                    dangerouslySetInnerHTML={{ __html: pub.abstract || '' }}
+                                                />
+                                            </div>
                                             </motion.div>
                                         ) : null}
                                         {expandedBibtexId === pub.id && pub.bibtex ? (

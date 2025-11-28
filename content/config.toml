@@ -1,29 +1,29 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Chenyan Gong"
+description = "PhD candidate at the University of Wisconsin-Madison."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "November 27, 2025"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Chenyan Gong"
+title = "PhD Candidate"
+institution = "University of Wisconsin-Madison"
+avatar = "/chenyan_c.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+email = "cgong44@wisc.edu"
+location = "Madison, Wisconsin"
+location_url = "https://www.google.com/maps/place/William+H.+Sewell+Social+Sciences+Building/@43.0762341,-89.4079888,16z/data=!3m1!4b1!4m6!3m5!1s0x8807ac950a7f481d:0xf6ca8f24bb55e09c!8m2!3d43.0762302!4d-89.4054139!16s%2Fg%2F1hf7jbjxs?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Room 7439, William H. Sewell Social Sciences Building,",
+  "1180 Observatory Dr, Madison, Wisconsin"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = "https://scholar.google.com/citations?user=WeYmfQ0AAAAJ&hl=en&oi=ao"
+orcid = "https://orcid.org/0009-0008-3206-6764"
+github = "https://github.com/projects#"
+linkedin = "https://www.linkedin.com/in/chenyan-gong-7ba6312b2/"
 
 [features]
 # Show a like button on the about page
@@ -39,7 +39,7 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "Publications"
+title = "Research"
 type = "page"
 target = "publications"
 href = "/publications"
@@ -49,18 +49,6 @@ title = "Teaching"
 type = "page"
 target = "teaching"
 href = "/teaching"
-
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
 
 [[navigation]]
 title = "CV"
