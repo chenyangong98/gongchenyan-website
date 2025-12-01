@@ -28,7 +28,7 @@ Cornell University, *Spring 2024*
 
 ## Experience
 
-**Research Assistant (Supervised by Prof. Shanjun Li)**
+**Research Assistant (Supervised by Prof. Shanjun Li and Prof. Panle Jia Barwick )**
 Cornell University
 *May 2023 - Present*
 
